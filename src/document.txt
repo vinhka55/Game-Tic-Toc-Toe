@@ -1,0 +1,5 @@
+useEffect
+callback luôn được gọi sau khi component mounted
+    Với useEffect ko có tham số thứ 2:
+        Gọi callback mỗi khi component re-render
+        Gọi callback sau khi component thêm element vào DOM

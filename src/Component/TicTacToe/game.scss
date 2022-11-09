@@ -1,0 +1,98 @@
+//css module sẽ trả về 1 object, tạo ra tên class khác nhau , cấu trúc file fileName.module.css
+//scss giúp chúng ta code css 1 cách linh hoạt hơn
+.tictoctoe{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.game-board{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+}
+.game-cell{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.reset-game{
+    display: block;
+    padding: 5px 15px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+.text-winner{
+    color: coral;
+    font-size: 20px;
+    text-align: center;
+}
+
+.game-cell.is-X {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aqua;
+    font-size: 50px;
+}
+
+.game-cell.is-O {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(224, 117, 17);
+    font-size: 50px;
+}
+
+.game-nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.game-nav-item{
+    padding: 15px 20px;
+}
+
+.menu-page{
+    background-color: black;
+}
+
+.game-nav-item a{
+    color: white;
+    text-decoration: none;
+}
+
+.game-nav-item a:hover{
+    color: blue;
+}
+.content-tutorial-game{
+    width: 80%;
+    margin: auto;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    .name , .email{
+        margin: 5px 0;
+        height: 30px;
+    }
+    .massege{
+        margin: 5px 0;
+        height: 80px;
+    }
+    .btn-send{
+        cursor: pointer;
+        height: 36px;
+        width: 30%;
+    }
+}
+.active-menu{
+    color: blue !important;
+}
