@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vinhka55/Game-Tic-Toc-Toe/static/css/main.60ef9e04.css",
+    "main.js": "/vinhka55/Game-Tic-Toc-Toe/static/js/main.6405fd04.js",
+    "static/js/787.fe00223f.chunk.js": "/vinhka55/Game-Tic-Toc-Toe/static/js/787.fe00223f.chunk.js",
+    "index.html": "/vinhka55/Game-Tic-Toc-Toe/index.html",
+    "main.60ef9e04.css.map": "/vinhka55/Game-Tic-Toc-Toe/static/css/main.60ef9e04.css.map",
+    "main.6405fd04.js.map": "/vinhka55/Game-Tic-Toc-Toe/static/js/main.6405fd04.js.map",
+    "787.fe00223f.chunk.js.map": "/vinhka55/Game-Tic-Toc-Toe/static/js/787.fe00223f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60ef9e04.css",
+    "static/js/main.6405fd04.js"
+  ]
+}
