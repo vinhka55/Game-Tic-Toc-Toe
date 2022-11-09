@@ -22,7 +22,7 @@ function TicTacToe(){
                 </nav>         
             </div>
             <Routes>
-                <Route path="/Game-Tic-Toc-Toe" element={ <Home/> } />
+                <Route path="Game-Tic-Toc-Toe" element={ <Home/> } />
                 <Route path="tutorial" element={ <Tutorial/> } />
                 <Route path="contact" element={ <Contact/> } />
             </Routes>
