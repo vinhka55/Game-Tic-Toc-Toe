@@ -5,6 +5,7 @@
     margin-top: 50px;
 }
 .game-board{
+
     width: 500px;
     height: 500px;
     border: 1px solid black;
@@ -95,4 +96,18 @@
 }
 .active-menu{
     color: blue !important;
+}
+
+$small-width : 480px;
+@mixin extra-small {
+    @media (max-width: #{$small-width - 1px}) {
+      @content;
+    }
+}
+
+@include extra-small{
+    .game-board{
+        width: 200px;
+        height: 200px;
+    }
 }
